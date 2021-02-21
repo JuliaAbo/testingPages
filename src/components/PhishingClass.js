@@ -6,7 +6,7 @@ import '../App.css';
 
 
 // home page
-class Phishing extends React.Component {
+class PhishingClass extends React.Component {
 
     render() {
         return (
@@ -68,4 +68,4 @@ class Phishing extends React.Component {
 }
 
 
-export default Phishing;
+export default PhishingClass;

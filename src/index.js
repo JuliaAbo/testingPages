@@ -9,6 +9,7 @@ import {Link, BrowserRouter, Route} from 'react-router-dom';
 import NavBar from './components/NavBar';
 import CoursePreview from './components/CoursePreview';
 import Phishing from './components/Phishing';
+import PhishingClass from './components/PhishingClass'; 
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.render(
         <Route path="/get-started" exact={true} component={GetStarted}/>
         <Route path="/profile" exact={true} component={CoursePreview}/>
         <Route path="/phishing" exact={true} component={Phishing}/>
+        <Route path="/phishing-class" exact={true} component={PhishingClass}/>
     </BrowserRouter>
  
   </React.StrictMode>,
