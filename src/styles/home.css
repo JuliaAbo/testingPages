@@ -3,8 +3,19 @@
 }
 
 h1 {
-    text-align: center
+    text-align: center;
+    font-weight: 700 !important;  
+    font-size: 36px; 
 }
+
+
 h6 {
     text-align: center
+}
+
+
+.centered {
+  position: fixed; /* or absolute */
+  top: 35%;
+  left: 40%;
 }
